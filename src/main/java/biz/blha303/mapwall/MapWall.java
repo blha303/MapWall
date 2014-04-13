@@ -9,7 +9,7 @@ import org.bukkit.command.Command;
 public class MapWall extends JavaPlugin {
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (!sender instanceof Player) {
+        if (!(sender instanceof Player)) {
             sender.sendMessage("[MapWall] Only players can use this command. Console usage is planned.");
             return true;
         }
