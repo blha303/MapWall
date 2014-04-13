@@ -1,0 +1,8 @@
+name: MapWall
+main: biz.blha303.mapwall.MapWall
+version: 1
+commands:
+    mapwall:
+        description: Builds a mapwall in front of you
+        usage: /mapwall <wxh> [wall type id] [corner type id]
+        aliases: [mw, mwall, mapw]
